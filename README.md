@@ -68,6 +68,8 @@
 2. **3D Printed Components**:
     - Use a stand to position the motor and metal plate around the receiver.
     - Attach the thin metal plate to the stepper motor’s rotating shaft.
+
+![Prototype](prototype.pdf)
 ---
 
 ## Software Setup
