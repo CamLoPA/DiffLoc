@@ -1,27 +1,5 @@
 # DiffLoc: Hardware Implementation and Code
 
-## Overview
-**DiffLoc** is a WiFi hidden camera localization system that uses controlled diffraction to determine the azimuth of WiFi devices. This repository provides both the hardware implementation details and the source code for deploying DiffLoc.
-
----
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [System Requirements](#system-requirements)
-3. [Hardware Setup](#hardware-setup)
-    - [Raspberry Pi Setup](#raspberry-pi-setup)
-    - [Step-by-Step Motor and Plate Setup](#step-by-step-motor-and-plate-setup)
-4. [Software Setup](#software-setup)
-    - [Installing Dependencies](#installing-dependencies)
-5. [Code Overview](#code-overview)
-    - [Main Components](#main-components)
-    - [Running DiffLoc](#running-diffloc)
-6. [Demo](#demo)
-7. [Contributing](#contributing)
-8. [License](#license)
-
----
-
 ## Introduction
 
 **DiffLoc** is a system designed to localize WiFi camera using a controlled diffraction approach. The system is built on a low-cost hardware platform using a Raspberry Pi, a stepper motor, and other off-the-shelf components.
@@ -69,7 +47,7 @@
     - Use a stand to position the motor and metal plate around the receiver.
     - Attach the thin metal plate to the stepper motor’s rotating shaft.
 
-![Prototype](prototype.pdf)
+![Prototype](prototype_00.png)
 ---
 
 ## Software Setup
