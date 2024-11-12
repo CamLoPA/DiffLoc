@@ -45,7 +45,7 @@
 
 2. **3D Printed Components**:
     - Use a stand to position the motor and metal plate around the receiver.
-    - Attach the thin metal plate to the stepper motor’s rotating shaft.
+    - Attach the thin metal plate to the stepper motor's rotating shaft.
 
 ![Prototype](prototype_00.png)
 ---
@@ -82,6 +82,8 @@ git clone this repository and cd DiffLoc
 ---
 
 ## Demo
+
+Demo please refer to demo.mp4 in this prohect.
 
 ---
 
