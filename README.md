@@ -83,7 +83,7 @@ git clone this repository and cd DiffLoc
 
 ## Demo
 
-Demo please refer to demo.mp4 in this prohect.
+Demo please refer to demo.mp4 in this project.
 
 ---
 
