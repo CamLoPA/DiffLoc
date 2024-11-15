@@ -63,6 +63,7 @@ git clone this repository and cd DiffLoc
 
 1. **camsacn.py**: 
  - Detect hidde WiFi camera and send Mac address and channel to locationfu.py for localization.
+ - Due to the difference in the RSSI values returned by the Raspberry Pi’s network card compared to standard methods, this code includes APs with readings of -39dBm or higher (as reported by the built-in Raspberry Pi network card) in the scanning range.
 
 2. **locationfu.py**: 
  - Applies a stepper motor to rotate the metal plate, recording the corresponding path loss variations.
@@ -83,7 +84,9 @@ git clone this repository and cd DiffLoc
 
 ## Demo
 
-Demo please refer to demo.mp4 in this project.
+Demo please refer to demo.mp4 in this project. 
+
+**Note: Playing the CamLoPAdemo.mp4 or downloading the CamLoPAdemo.mp4 file alone might not work due to a bug on the Anonymous GitHub website. In such cases, you need to download the entire repository to play the demo.**
 
 ---
 
