@@ -86,7 +86,7 @@ git clone this repository and cd DiffLoc
 
 Demo please refer to demo.mp4 in this project. 
 
-**Note: Playing the CamLoPAdemo.mp4 or downloading the CamLoPAdemo.mp4 file alone might not work due to a bug on the Anonymous GitHub website. In such cases, you need to download the entire repository to play the demo.**
+**Note: Playing the demo.mp4 or downloading the demo.mp4 file alone might not work due to a bug on the Anonymous GitHub website. In such cases, you need to download the entire repository to play the demo.**
 
 ---
 
