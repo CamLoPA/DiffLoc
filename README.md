@@ -69,10 +69,14 @@ git clone this repository and cd DiffLoc
  - Applies a stepper motor to rotate the metal plate, recording the corresponding path loss variations.
  - Processes the CSI data to estimate the target's azimuth angle using the diffraction-based localization model.
 
-3. **ssetup.sh**:
+3. **setup.sh**:
  - Configure Nexmon csi tool.
+   
 4. **csitool**:
  - Tools for read and process nexmon csi data.
+
+5. **locationp.py**:
+ - The standalone localization module only requires setting the target MAC address and channel to begin localization.
 
 ###  Running DiffLoc
 
