@@ -105,7 +105,7 @@ def detect_suspicious_devices(packets_by_mac, router_mac):
     for mac, packets in packets_by_mac.items():
         total_length = sum(length for _, length in packets)
         avg_length = total_length / (len(packets)+1)
-        if avg_length > 150 and mac[:-1] != router_mac[:-1] and len(packets)>50:
+        if avg_length > 140 and mac[:-1] != router_mac[:-1] and len(packets)>45:
             suspicious_devices.append((mac, len(packets), avg_length))
 
     return suspicious_devices
