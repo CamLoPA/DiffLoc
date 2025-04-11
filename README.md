@@ -10,7 +10,7 @@
 
 - **Hardware:**
   - Raspberry Pi 4B (any version with WiFi support)
-  - USB WiFi Adapter (at least one can work on monitor mode, recommenf TX-N600)
+  - USB WiFi Adapter (at least one can work on monitor mode, recommend TX-N600)
   - Stepper Motor (ULN2003 control board and 5V 28BYJ-48 Stepper MotorStepper Motor)
   - 3D-printed connecting rod and stand
   - Aluminum metal plate (100X150X1 mm in our protype)
@@ -90,7 +90,9 @@ Demo please refer to demo.mp4 in this project.
 
 When detecting suspicious devices, it’s best to stay indoors and perform large movements to stimulate camera traffic. For camera localization, begin with active large movements inside the room, then leave the room during the second half of the detection process.
 
-**Note: Playing the demo.mp4 or downloading the demo.mp4 file alone might not work due to a bug on the Anonymous GitHub website. In such cases, you need to download the entire repository to play the demo.**
+**Note:** Playing the demo.mp4 or downloading the demo.mp4 file alone might not work due to a bug on the Anonymous GitHub website. In such cases, you need to download the entire repository to play the demo.
+
+**Note:** Our experiments were conducted using 2.4GHz WiFi. If using 5GHz WiFi, please adjust the relevant parameters accordingly—for example, change `'--bandwidth', '20'` to `'--bandwidth', '40'` in the location settings.
 
 ---
 
