@@ -182,7 +182,7 @@ def main():
         csi_matrix_squeezed[x] = lowpass(csi_matrix_squeezed[x], 3, 50, 5)
 
     x = csi_data.timestamps
-    row_means = np.mean(csi_matrix_squeezed, axis=1)
+    row_means = np.min(csi_matrix_squeezed, axis=1)
     top_5_indices = np.argsort(row_means)[:5]
     top_5_rows = csi_matrix_squeezed[top_5_indices]
     sum_top_5_rows = np.sum(top_5_rows, axis=0)
