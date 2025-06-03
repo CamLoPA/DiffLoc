@@ -92,7 +92,7 @@ Demo please refer to demo.mp4 in this project.
 
 ## Detection
 
-When detecting suspicious devices, it’s best to stay indoors and perform large movements to stimulate camera traffic. For camera localization, begin with active large movements inside the room, then leave the room during the second half of the detection process.
+When detecting suspicious devices, it’s best to stay indoors and perform large movements to stimulate camera traffic. For camera detection, begin with active large movements inside the room, then leave the room during the second half of the detection process.
 
 **Note:** Playing the demo.mp4 or downloading the demo.mp4 file alone might not work due to a bug on the Anonymous GitHub website. In such cases, you need to download the entire repository to play the demo.
 
