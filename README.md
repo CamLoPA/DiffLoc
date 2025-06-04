@@ -104,6 +104,7 @@ When detecting suspicious devices, it’s best to stay indoors and perform large
 
 We welcome contributions to improve and extend DiffLoc. If you would like to contribute, please fork the repository and submit a pull request. For larger contributions, please open an issue to discuss the changes before submitting.
 
+Thanks for [nexmon_csi](https://github.com/seemoo-lab/nexmon_csi) and [CSIKit](https://github.com/Gi-z/CSIKit)
 ---
 
 ## License
