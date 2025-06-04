@@ -92,9 +92,9 @@ Demo please refer to demo.mp4 in this project.
 
 ## Detection
 
-When detecting suspicious devices, it’s best to stay indoors and perform large movements to stimulate camera traffic. For camera detection, begin with active large movements inside the room, then leave the room during the second half of the detection process.
+When detecting suspicious devices, it’s best to stay indoors and perform large movements to stimulate camera traffic. For camera detection, begin with active large movements inside the room, then leave the room during the second half of the detection process. For localization, we recommend that users remotely connect to the DiffLoc device via a smartphone or computer and leave the room to avoid activity-induced interference.
 
-**Note:** Playing the demo.mp4 or downloading the demo.mp4 file alone might not work due to a bug on the Anonymous GitHub website. In such cases, you need to download the entire repository to play the demo.
+**Note:** Different types of USB WiFi NICs may fail to capture packets from certain camera models; however, switching to a different USB NIC can often resolve this issue. We are currently exploring the use of the Raspberry Pi’s built-in WiFi module as a potential solution.
 
 **Note:** Our experiments were conducted using 2.4GHz WiFi. If using 5GHz WiFi, please adjust the relevant parameters accordingly—for example, change `'--bandwidth', '20'` to `'--bandwidth', '40'` in the location settings.
 
