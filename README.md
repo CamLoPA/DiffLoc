@@ -83,6 +83,7 @@ git clone this repository and cd DiffLoc
  - Ensure all dependencies are installed
  - Use "airmon-ng start wlan 2" to make Wi-Nic-2 work on monitor mode.
  - Run camsacn.py for camera detection and localization, please leave romm according to the promot of the system. You can use a phone connect to DiffLoc with ssh.
+ - If you want to test localization only, please use locationp.py and change the MAC address and channel to target's MAC address and channel.
 
 ---
 
