@@ -103,7 +103,7 @@ When detecting suspicious devices, it’s best to stay indoors and perform large
 
 ## Contributing
 
-We welcome contributions to improve and extend DiffLoc. If you would like to contribute, please fork the repository and submit a pull request. For larger contributions, please open an issue to discuss the changes before submitting.
+We welcome contributions to improve and extend DiffLoc. We have discussed the current limitations and potential improvements of DiffLoc in the paper. There remains significant room for enhancement in hardware design, algorithm refinement, and the overall localization workflow. We welcome further discussion and collaboration.
 
 Thanks for [nexmon_csi](https://github.com/seemoo-lab/nexmon_csi) and [CSIKit](https://github.com/Gi-z/CSIKit)
 ---
@@ -113,3 +113,14 @@ Thanks for [nexmon_csi](https://github.com/seemoo-lab/nexmon_csi) and [CSIKit](h
 DiffLoc is released under the [MIT License](LICENSE). See the LICENSE file for more information.
 
 ---
+
+## Citation
+```
+@inproceedings{zhang2025diffloc,
+author={Zhang, Xiang and Zhang, Jie and Yan, Huan and Huang, Jinyang and Ma, Zehua and Liu, Bin and Li, Meng and Chen, Kejiang and Guo, Qing and Zhang, Tianwei and Liu, Zhi},
+booktitle = {The 34th USENIX Security Symposium},
+title = {DiffLoc: WiFi Hidden Camera Localization Based on Electromagnetic Diffraction},
+year = {2025},
+address = {Seattle, WA, USA},
+month =May}
+```
