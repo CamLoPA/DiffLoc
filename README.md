@@ -13,7 +13,7 @@
   - USB WiFi Adapter (at least one can work on monitor mode, recommend TX-N600)
   - Stepper Motor (ULN2003 control board and 5V 28BYJ-48 Stepper MotorStepper Motor)
   - 3D-printed connecting rod and stand
-  - Aluminum metal plate (100X150X1 mm in our protype)
+  - Aluminum metal plate (100X150X1 mm in our protype)(100×200×1 mm would be preferable, with a 5 cm protrusion at the top.)
   - Power supply for the Raspberry Pi and external peripherals (Can use mobile power)
   
 - **Software:**
@@ -77,6 +77,9 @@ git clone this repository and cd DiffLoc
 
 5. **locationp.py**:
  - The standalone localization module only requires setting the target MAC address and channel to begin localization.
+
+6. **lg_v2**:
+ - These two files contain the design schematics for the 3D-printed components used in our system.
 
 ###  Running DiffLoc
 
